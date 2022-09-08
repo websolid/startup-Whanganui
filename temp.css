@@ -356,8 +356,7 @@ header.masthead {
   background-color: #5cdb95 !important;
   background: url("assets/img/Picture1.svg"), url("assets/img/Picture5.svg");
   background-position: right center, center;
-  background-repeat: no-repeat,no-repeat;
-
+  background-repeat: no-repeat, no-repeat;
   padding-top: 17.5rem;
   padding-bottom: 20.5rem;
   text-align: left;
@@ -406,7 +405,7 @@ header.masthead h3 {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
-  background: url("assets/img/Picture1.svg") no-repeat right bottom;
+  background: url("assets/img/Picture1.svg") no-repeat, right bottom;
   }
   header.masthead h1{
     font-size: 4rem;
