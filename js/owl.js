@@ -2,14 +2,13 @@ $(document).ready(function () {
 
 
 
-$(function(){
-     var navMain = $(".navbar-collapse"); // avoid dependency on #id
-     // "a:not([data-toggle])" - to avoid issues caused
-     // when you have dropdown inside navbar
-     navMain.on("click", "a:not([data-toggle])", null, function () {
-         navMain.collapse('hide');
-     });
- });
+  $('#port').click(function(){
+       var navMain = $(".navbar-collapse"); // avoid dependency on #id
+       // "a:not([data-toggle])" - to avoid issues caused
+       // when you have dropdown inside navb
+           navMain.collapse('hide');
+       });
+
 
  $('#submit').click(function(){
   var contacts = [ "Grace", "grace", "Simon"];
