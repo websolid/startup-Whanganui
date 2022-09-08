@@ -61,7 +61,7 @@ body.modal-open {
 
 
 
-@media (max-width: 968px) {
+/* @media (max-width: 968px) {
 
 
   #navbarSupportedContent{
@@ -80,7 +80,7 @@ body.modal-open {
   }
 .navbar{
   background: transparent;
-}
+} */
 
 
 }
@@ -227,21 +227,30 @@ background: transparent;
 border-bottom: 2px solid #05386b;
 }
 @media only screen and (max-width: 990px) {
+  #navbarSupportedContent{
+    text-align: left;
+  }
 
     .navbar{
-      background: rgba(2, 48, 71, 1);
+      background:#05386b;
       width: 100%;
 
     }
-
+    .dropdown-menu .dropdown-item{
+      font-family: font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color:#5cdb95;
+      letter-spacing: 0.25rem;
+    }
 
     .nav-link{
       text-align: center;
       margin-left: 20px;
       font-family: font-family: 'Josefin Sans', sans-serif;
-      font-size: 16px;
+      font-size: 13px;
       font-weight: 700;
-      color: #fff;
+      color: #5cdb95;
       display:inline-block;
       line-height: 35px;
 
