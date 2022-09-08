@@ -357,7 +357,7 @@ header.masthead {
   background: url("assets/img/Picture1.svg"), url("assets/img/Picture5.svg");
   background-position: right center, center;
   background-repeat: no-repeat,no-repeat;
-
+  background-size: auto, cover;
   padding-top: 17.5rem;
   padding-bottom: 20.5rem;
   text-align: left;
@@ -399,6 +399,7 @@ header.masthead h3 {
   color: #edf5e1;
   font-family: 'Russo One', sans-serif;
   padding-bottom: 0px;
+  text-decoration: underline 3px #05386b;
 }
 
 @media (max-width: 968px) {
@@ -432,7 +433,10 @@ header.masthead h3 {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
-  background: url("assets/img/Picture1.svg") no-repeat right bottom;
+    background: url("assets/img/Picture1.svg"), url("assets/img/Picture5.svg");
+    background-position: right bottom, center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: auto, 500px;
   }
   header.masthead h1{
     font-size: 1.5rem !important;
